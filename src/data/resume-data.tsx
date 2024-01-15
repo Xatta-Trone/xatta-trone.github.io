@@ -53,7 +53,13 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Bangladesh University of Engineering & Technology",
+      school: "The University of Tokyo (uTokyo)",
+      degree: "Master's Degree in Architecture",
+      start: "2020",
+      end: "2022",
+    },
+    {
+      school: "Bangladesh University of Engineering & Technology (BUET)",
       degree: "Bachelor's Degree in Civil Engineering",
       start: "2015",
       end: "2019",
@@ -63,7 +69,7 @@ export const RESUME_DATA = {
     {
       company: "Connect Inc.",
       link: "https://econnectcom.com/",
-      badges: ["Remote"],
+      badges: ["Remote", "Contractual"],
       title: "Full Stack Software Developer",
       logo: ParabolLogo,
       start: "2022",
@@ -98,7 +104,8 @@ export const RESUME_DATA = {
     "Laravel",
     "Livewire",
     "JavaScript/TypeScript",
-    "Vue.js/NuxtJS/InertiaJS",
+    "Vue.js/Nuxt.js/Inertia.js",
+    "React/Next.js",
     "Svelte/SvelteKit",
     "Dart",
     "Flutter",
@@ -121,7 +128,7 @@ export const RESUME_DATA = {
     {
       title: "PL Tutorials",
       techStack: [
-        "Side Project",
+        
         "Laravel",
         "MySQL",
         "Vue.js/NuxtJS",
@@ -136,7 +143,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PL Tutorials (App)",
-      techStack: ["Side Project", "Flutter", "Firebase"],
+      techStack: [ "Flutter", "Firebase", "Sanctum"],
       description:
         "Android app built on the top of flutter, consuming the API from back-end.",
       logo: MonitoLogo,
@@ -146,136 +153,118 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "GRE-SE",
+      techStack: [ "Golang", "SvelteKit", "Nuxt.js", "Stripe", "Web Scrapping", "API","OAuth"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "GRE word learning app (SaaS) where users can learn words for free an buy premium service.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "gre-sentence-equivalence.com",
+        href: "https://gre-sentence-equivalence.com/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Book-now Event Management",
+      techStack: [ "Laravel", "Livewire", "CMS", "MySQL",],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Event management site for a client form Upwork.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "book-now.xattabyte.com",
+        href: "https://book-now.xattabyte.com/",
+      },
+    },
+    {
+      title: "Medium Parser",
+      techStack: [ "Browser Extension", "Chrome", "Mozilla", "Edge"],
+      description:
+        "Medium parser is a web browser extension to help read the member-only articles on medium.com and medium.com based sites (e.g. towards-data-science)",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com/Xatta-Trone/medium-parser-extension",
+        href: "https://github.com/Xatta-Trone/medium-parser-extension",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Sher-e-Bangla Hall, BUET",
+      techStack: ["Laravel", "Livewire", "MySQL", "CMS"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "Website for the dorm Sher-e-Bangla Hall, BUET, Bangladesh. The CMS is built using Laravel Livewire.",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "sherebanglahall.buet.ac.bd",
+        href: "https://sherebanglahall.buet.ac.bd/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "Golden Jubilee of SBH",
+      techStack: ["Laravel", "Payment Integration", "Livewire", "MySQL", "CMS"],
+      description:
+        "Event management website, integrated with local leading payment gateway https://sslcommerz.com/",
+      logo: BarepapersLogo,
+      link: {
+        label: "https://reunion.sherebanglahall.buet.ac.bd",
+        href: "https://https://reunion.sherebanglahall.buet.ac.bd/",
+      },
+    },
+    {
+      title: "Studytheatre.com",
+      techStack: ["Laravel","Livewire","Vue.js","Firebase", "FCM", "JWT", "Flutter"],
+      description: "Ed-tech site, built using Laravel Livewire and Vue.js on the FE and Admin-panel. The android app was build using flutter SDK.",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "studytheatre.com",
+        href: "https://studytheatre.com/",
       },
     },
     {
-      title: "Parabol",
+      title: "Route 64 DC",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Wordpress",
+        "Elementor",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "Website for Route 64 Design & Consultancy - A Transportation Engineering Consulting Firm",
       logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "route64dc.com",
+        href: "https://route64dc.com/",
       },
     },
     {
-      title: "Evercast",
+      title: "Dictionary Scrapper",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Golang",
+        "Web Scrapping",
+        "API Development",
+        "Gin",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Scrap google dictionary result using proxy and serve it via API interface.",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "thesaurus.gre-sentence-equivalence.com/g/banal",
+        href: "https://thesaurus.gre-sentence-equivalence.com/g/banal",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "GregMAT GRE Words",
+      techStack: ["Web Scrapping", "Vue.js", "Node.js"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
+        "Gre word learning app based on the word list of popular GRE tutor GregMAT.",
       logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "xatta-trone.github.io/gregmat-gre-words-all/",
+        href: "https://xatta-trone.github.io/gregmat-gre-words-all/",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Route 64 DC Counter",
+      techStack: ["Laravel", "Inertia.js", "Vue.js","MySQL"],
       description:
-        "Howdy is a place for you to join communities you care about",
+        "Web based counting software for vehicle counting, with feature of excel exports & daily backup.",
       logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
     },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    
   ],
 } as const;
